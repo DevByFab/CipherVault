@@ -1,0 +1,34 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# App artifacts
+*.cvault
+*.log
+
+# Local data
+.env
+.secret*
+
+# Documentation / Reports to exclude
+RELATORIO_V1.6.md
+analise_tecnica_chapitre4.md
+assets_chapitre3.md

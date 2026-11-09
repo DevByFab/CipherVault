@@ -1,0 +1,26 @@
+# ========================================
+# CipherVault - Aplicação Autónoma
+# ========================================
+# Instalar com: pip install -r requirements.txt
+# Depois a aplicação funciona diretamente!
+
+# Criptografia (OBRIGATÓRIO) - Inclui OpenSSL internamente
+cryptography==42.0.0
+
+# Interface de utilizador (CLI melhorada)
+click==8.1.7          # Para interface de linha de comandos profissional
+colorama==0.4.6       # Cores no terminal (compatível com Windows)
+rich==13.7.0          # Interface CLI bonita e moderna
+
+# ========================================
+# Interface gráfica (GUI)
+# ========================================
+customtkinter>=5.2.0   # Interface gráfica moderna (src/gui.py)
+tkinterdnd2>=0.3.0     # Suporte opcional a arrastar-e-largar ficheiros na GUI
+Pillow>=10.0.0         # Carregamento do logótipo / ícone da aplicação
+
+# ========================================
+# Auto-update (launcher/updater.py)
+# ========================================
+requests>=2.31.0
+packaging>=23.0
